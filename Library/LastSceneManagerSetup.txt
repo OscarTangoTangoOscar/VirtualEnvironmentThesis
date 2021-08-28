@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/XR Rig Template.unity
+- path: Assets/Cave Parts/scene/Cave system.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

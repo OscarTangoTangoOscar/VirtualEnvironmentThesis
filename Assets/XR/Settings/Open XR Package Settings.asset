@@ -134,10 +134,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f0ebc320a151d3408ea1e9fce54d40e, type: 3}
   m_Name: Open XR Package Settings
   m_EditorClassIdentifier: 
-  Keys: 010000000d000000
+  Keys: 010000000d00000007000000
   Values:
   - {fileID: 26688871460828716}
   - {fileID: 4239401154892172848}
+  - {fileID: 6654425833725077841}
 --- !u!114 &26688871460828716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151,17 +152,17 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: 
   features:
+  - {fileID: -2954974124011827686}
   - {fileID: 2258524609076661760}
   - {fileID: -5982075473010845161}
   - {fileID: 2294672900835887936}
   - {fileID: 4953766350441924658}
   - {fileID: -1345224266361429352}
   - {fileID: -5941484246571134945}
-  - {fileID: -2954974124011827686}
-  - {fileID: 2773356188072106613}
   - {fileID: -5428877783595801860}
-  - {fileID: -242867092970464566}
   - {fileID: 3221555742459873519}
+  - {fileID: -242867092970464566}
+  - {fileID: 2773356188072106613}
   m_renderMode: 1
   m_depthSubmissionMode: 0
 --- !u!114 &2258524609076661760
@@ -237,7 +238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d6ccd3d0ef0f1d458e69421dccbdae1, type: 3}
   m_Name: ValveIndexControllerProfile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Valve Index Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.valveindex
@@ -280,3 +281,18 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &6654425833725077841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a1f07dc5afe854f9f12a4194aca3fb, type: 3}
+  m_Name: Android
+  m_EditorClassIdentifier: 
+  features: []
+  m_renderMode: 1
+  m_depthSubmissionMode: 0
